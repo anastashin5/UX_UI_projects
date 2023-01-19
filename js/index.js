@@ -1,6 +1,9 @@
+console.log("Your index.js file is loaded correctly!");
 
-.navigation$(document).ready(function(){
-  $("#flip").click(function(){
-    $("#panel").slideDown("slow");
+
+
+$( "#down" ).click(function() {
+  $( "#down" ).slideDown( "slow", function() {
+    // Animation complete.
   });
 });

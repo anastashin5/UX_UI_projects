@@ -96,10 +96,10 @@ span{
 p{
 	text-align: justify;
 }
-h2, h1, h3{
+h1, h2, h3{
 		text-align:center;
 }
-h3{color:#00849E;
+h1, h3{color:#00849E;
 }
 
 footer {
@@ -109,7 +109,6 @@ footer {
 ul{
 	padding-inline-start:20px;
 }
-
 li{
 	padding-inline-start:20px;
 }
@@ -126,7 +125,6 @@ body { background: @bg;}
   -moz-animation: bounce 2s infinite;
   -webkit-animation: bounce 2s infinite;
   animation: bounce 2s infinite;
-
   text-align: center;
 }
 

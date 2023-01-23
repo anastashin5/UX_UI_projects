@@ -16,10 +16,13 @@
 				<li class="inline-bl">More Work</li>
 			</ul>
 		</nav>
-		<div class="inline-block logo"><img src="images/Logo.png" alt="logo"/>
+		<div id="logo_div" class="inline-block logo"><img id="logo_img" src="images/Logo.png" alt="logo"/>
 		<!-- Logo Website -->
 		</div>
 		<div class="phone">+1 609 210 6688</div>
+		<div id="header_detail">
+			TEST
+		</div>
 	</header>
   
 	 
@@ -81,7 +84,8 @@
 		
 		
 		
-   <footer><div>
+<footer>
+	<div>
 		<div>
 			<ul>
 				<li class="inline-bl">about</li>
@@ -90,9 +94,28 @@
 				<li class="inline-bl">contact</li>
 			</ul>
 		</div>
-		<div><img src="images/mail.png" class="mail", alt="mail">
-		</div></div>
-	</footer> 
+		<div id="mail"><img src="images/mail.png" class="mail", alt="mail"></div>
+		<div id="mail_form_div">
+			<form id="mail_form" action="" method="POST"> 
+				Your Name (required)<br>
+				<input type="text" id="name" name="name" required size="10"><br>
+				Your Email (required)<br>
+				<input type="text" id="email" name="email" required size="10"><br>
+				Subject<br>
+				<input type="text" id="subject" name="subject" size="10"><br>
+				Your Message<br>
+				<textarea id="message" name="message" rows="5" cols="33"></textarea><br>
+				<input type="submit" value="Submit">
+			</form>
+			<div id="form_message" class="modal">
+			  <div class="modal-content">
+				<span id="close_button" class="close">&times;</span>
+				<p>Thank you!</p>
+			  </div>
+			</div>
+		</div>
+	</div>
+</footer>  
 </body>
 <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
 <script src="js/index.js"></script>

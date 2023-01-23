@@ -43,7 +43,7 @@ nav{
 		"wide3 topic3";
 	position: relative;
 	margin:0 5%;
-
+	justify-content: center;
 }
 @media only screen and (max-width: 1100px){
 	.myProject{
@@ -102,7 +102,7 @@ h1, h2, h3{
 h1, h3{color:#00849E;
 }
 
-footer {
+footer{
 	background-color: #00849E;
 	padding: 1%;
 }
@@ -118,10 +118,10 @@ li{
 
 body { background: @bg;}
 
-.arrow {
+.arrow{
   margin: 3% 0;
 }
-.bounce {
+.bounce{
   -moz-animation: bounce 2s infinite;
   -webkit-animation: bounce 2s infinite;
   animation: bounce 2s infinite;
@@ -136,6 +136,62 @@ body { background: @bg;}
     transform: translateY(-30px);
   }
   60% {
-    transform: translateY(-15px);
+	transform: translateY(-15px);
   }
+}
+
+#down{
+	background: #de9a44;
+	margin: 3px;
+	width: 80px;
+	height: 40px;
+	display: none;
+	float: left;
+}
+
+#header_detail{
+	display: none;
+}
+
+#mail{
+	margin-left:2%;
+}
+
+#mail_form_div{
+	display: none;
+	position: relative;
+	margin-left:2%;
+}
+
+.modal{
+	display: none; 
+	position: absolute; 
+	z-index: 1;
+	top: 23%;
+	left: 5%;
+}
+
+/* Modal Content */
+.modal-content{
+	background-color: #fefefe;
+	margin: auto;
+	padding: 20px;
+	border: 5px solid #00849E;
+	border-radius: 5px;
+	box-shadow: 5px 10px;
+	width: 100%;
+}
+
+.close{
+	color: #00849E;
+	float: right;
+	font-size: 28px;
+	font-weight: bold;
+}
+
+.close:hover,
+.close:focus{
+	color: #000;
+	text-decoration: none;
+	cursor: pointer;
 }

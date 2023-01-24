@@ -24,7 +24,6 @@ nav{
 	outline: none;
 	text-decoration: none;
 }
-
 .inline{
 	line-height:2.5;
 	list-style-type: square;
@@ -156,7 +155,7 @@ footer{
 	margin-left:7.5%;
 }
 .slider{
-	width:20px;
+	width:110px;
 	padding-bottom:20px;
 	color: white;
 }

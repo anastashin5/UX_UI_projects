@@ -11,24 +11,27 @@
 <body>  
 	<header class="navigation">
 		<nav class="inline-block">
+			<div id="logo_div"><img id="logo_img" src="images/Logo.png" alt="logo"/>
+			</div>
+			<div>
 			<ul>
 				<li class="inline-bl">About me</li>
 				<li class="inline-bl">More Work</li>
 			</ul>
+			</div>
+			<div class="phone">+1 609 210 6688
+			</div>
 		</nav>
-		<div id="logo_div" class="inline-block logo"><img id="logo_img" src="images/Logo.png" alt="logo"/>
-		<!-- Logo Website -->
-		</div>
-		<div class="phone">+1 609 210 6688</div>
+
+
 		<div id="header_detail">
 			TEST
 		</div>
 	</header>
-  
 	 
 <!--  My Projects section coded using CSS flex + grid --> 
 <section>
-		<h1>My Projects</h1>
+	<h1>My Projects</h1>
 	<div class="myProject">
 				<div class="photo1"><img src="images/AppTravel.png" class="photo", alt="AppTravel"></div>
 					<div class="topic1"> 
@@ -73,26 +76,57 @@
 	</div>
 		<div class="arrow bounce"><img src="images/Arrow.png" alt="Arrow">
 		</div>
-		<h3>View all projects</h3>
+		<div id="flip"><h3>View all projects</h3></div>
 		
-		
-		
-<div class="accordion" id="accordionExample">
-
-  
-		<h3>View all projects</h3>
- 
-
-    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
-      <div class="card-body">
-        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-      </div>
-    </div>
-
-  </div>
-  
-  
-  
+<!--Slide down panel_ View all projects-->
+			<div id="panel">
+				<div class="myProject">
+					<div class="photo1"><img src="images/Pets.png" class="photo", alt="Pets"></div>
+						<div class="topic1"> 
+							<h2>The Humane Society of New York</h2>
+								<p style="font-weight:bold">RESEARCH OBJECTIVE:</p>
+								<p>A successful A successful A successful A successful A successful.
+									A successful A successful A successful A successful A successful A successful A successful A successful A successful A successful A successful A successful A successful A successful A successful.</p>
+								<p style="font-weight:bold">PROJECT GOALS:</p>
+									<ul>
+										<li>A successful A successful A successful A successful A successful A successful ;</li>
+										<li>A successful A successful A successful;</li>
+										<li>A successful A successful A successful.</li>
+									</ul>
+								<p style="font-weight:bold">MY ROLE:  UX/ UI designer (Group Project).</p>
+								<p style="font-weight:bold">TOOLS: Miro, Figma, Google Drive.</p>
+								<span onclick="window.location.href='https://docs.google.com/presentation/d/1B-8GnaA3EiX3h3cj4Wrj0RYMXRU_M1KUAjcllflZ4do/edit?usp=sharing';">  See more...</span>
+						</div>
+					<div class="photo2"><img src="images/Pets.png" class="photo", alt="AppEz"></div>
+						<div class="topic2"> 
+							<h2>App "EasyGrocery"</h2>
+								<p style="font-weight:bold">RESEARCH OBJECTIVE:</p>
+								<p>A successful A successful A successful A successful A successful A successful A successful A successful A successful A successful A successful A successful.”</p>
+								<p style="font-weight:bold">PROJECT GOALS:</p>
+								<p>A successful A successful A successful A successful A successful A successful A successful A successful A successful A successful...</p>
+								<p style="font-weight:bold">MY ROLE:  UX/ UI designer (Group Project).</p>
+								<p style="font-weight:bold">TOOLS: Miro, Figma, Google Drive.</p>
+								<p style="font-weight:bold">TIMELINE: 4 weeks.</p>
+								<span onclick="window.location.href='https://docs.google.com/presentation/d/1zLMt0xFKxTLGga11jVH8FEWNijeJrefe0IZL0jcHZ3M/edit?usp=sharing';"> See more... </span>
+						</div>
+					<div class="photo3"><img src="images/Pets.png" class="photo", alt="AppUSDA"></div>
+						<div class="topic3"> 
+							<h2>U.S.Department of Agriculture</br>Website Redesign</h2>
+							<p style="font-weight:bold">RESEARCH OBJECTIVE:</p>
+							<p>A successful A successful A successful A successful A successful.
+									A successful A successful A successful A successful A successful A successful A successful A successful A successful A A successful A successful A successful A successful A successful.
+									A successful A successful A successful A successful A successful.</p>
+							<p style="font-weight:bold">PROJECT GOALS:</p>
+							<p> A successful A successful A successful A successful A successful.
+									A successful A successful A successful A successful A successful A successful A successful A successful A successful.</p>
+							<p style="font-weight:bold">TOOLS: Miro, Figma, Google Drive.</p>
+							<p style="font-weight:bold">TIMELINE: 4 weeks.</p>
+							<span onclick="window.location.href='https://docs.google.com/presentation/d/14dFW8tpYiNB5mL28kdezumPrquhXbrz_nMyihkFcQ64/edit?usp=sharing';">See more...
+							</span>
+						</div>
+	</div> 
+			</div>
+   
 </section>
         
 		
@@ -100,9 +134,9 @@
 		
 		
 		
+<!-- Up button to scroll the site page to the top -->		
 		
-		
-		
+					<div class="btn-up btn-up_hide"></div>
 <footer>
 	<div>
 		<div>
@@ -137,6 +171,7 @@
 </footer>  
 </body>
 <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
 <script src="js/index.js"></script>
 </html>
 

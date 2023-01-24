@@ -19,20 +19,13 @@ nav{
 }
 
 .inline-bl:hover {
-	text-decoration: underline;
 	rotate: z -20deg;
-	outline: none;
-	text-decoration: none;
 }
 .inline{
 	line-height:2.5;
 	list-style-type: square;
 }
 
-.inline:hover {
-	rotate: z -20deg;
-
-}
 .inline:hover {
 	rotate: z -20deg;
 	color:red;

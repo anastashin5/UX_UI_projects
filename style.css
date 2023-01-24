@@ -2,16 +2,44 @@
 header{
 	background-color: #00849E;
 }
+
+nav{
+	width: 100%;
+}
+#logo_div{
+	text-align:center;
+	padding-top:1%;
+}
+
 .inline-bl{
 	display: inline-block;
 	color: white;
 	padding-inline-start:1%;
 	margin-right:1%;
 }
+
+.inline-bl:hover {
+	text-decoration: underline;
+	rotate: z -20deg;
+	outline: none;
+	text-decoration: none;
+}
+
 .inline{
-		color: white;
-		line-height:2.5;
-		list-style-type: square;
+	color: white;
+	line-height:2.5;
+	list-style-type: square;
+}
+
+.inline:hover {
+	rotate: z -20deg;
+	color:red;
+}
+
+a {
+	outline: none;
+	text-decoration: none;
+	color:white;
 }
 
 .phone{
@@ -19,17 +47,7 @@ header{
 	text-align:right;
 	margin-right: 5%;
 }
-.inline-bl:hover {
-  text-decoration: underline;
-  rotate: z -20deg;
-}
-#logo_div{
-	text-align:center;
-	padding-top:1%;
-}
-nav{
-	width: 100%;
-}
+
 .myProject{
 	display: grid;
 	grid-template-columns: repeat(auto-fit, minmax(370px, 450px));
@@ -44,6 +62,7 @@ nav{
 	margin: 3% 5%;
 	justify-content: center;
 }
+
 @media only screen and (max-width: 1100px){
 	.myProject{
 			grid-template-columns: repeat(auto-fit, minmax(370px, 450px));
@@ -57,50 +76,66 @@ nav{
 		"topic3";
 	}
 }
+
 .photo, .topic1, .topic2, .topic3{
   width: 100%;
   height: 100%;
   box-sizing: border-box;
   object-fit: cover;
 }
+
 .photo1{
 	grid-area:wide1;
 }
+
 .photo2{
 	grid-area:wide2;
 }
+
 .photo3{
 	grid-area:wide3;
 }
+
 .topic1{
 	grid-area:topic1;
 }
+
 .topic2{
 	grid-area:topic2;
 }
+
 .topic3{
 	grid-area:topic3;
 }
+
 span:hover, h3:hover{
   text-decoration: underline;
   font-size:20px;
   color:red;
+  	outline: none;
+	text-decoration: none;
 }
+
 span{
 	color:blue;
 }
+
 p{
 	text-align:justify;
 }
+
 h1, h2, h3{
 	text-align:center;
 }
+
 h1, h3{
 	color:#00849E;
 }
+
 h1{
 	margin-top:3%;
 }
+
 footer{
 	background-color: #00849E;
 	padding: 1%;
@@ -109,18 +144,17 @@ footer{
 		/* Slider Up_ Menu*/
 		
 #about_detail{
-	display: none;				
+	display: none;	
+	margin-left:1.5%;	
 }
 
 #work_detail{
 	display: none;
+	margin-left:7.5%;
 }
 .slider{
 	width:20px;
 	padding-bottom:20px;
-}
-#slider2{
-	margin-left:7%;
 }
 
 #down{

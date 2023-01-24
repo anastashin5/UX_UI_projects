@@ -9,8 +9,19 @@ $( "#down" ).click(function() {
 });
 
 $(document).ready(function(){
-  $("header").hover(function() {
-    $("#header_detail").slideToggle("slow");;
+  $("#nav_menu li").click(function() {
+	if($(this).text() == "About me") {
+	  $("#about_detail").slideToggle("slow");
+	  if($("#work_detail").is(":visible")) {
+	    $("#work_detail").slideUp("slow");
+	  }
+	}
+	if($(this).text() == "More Work") {
+	  $("#work_detail").slideToggle("slow");
+	  if($("#about_detail").is(":visible")) {
+	    $("#about_detail").slideUp("slow");
+	  }	  
+	}	
   });
   $("#mail").click(function(){
     $("#mail_form_div").slideToggle("slow");
@@ -27,11 +38,13 @@ $(document).ready(function(){
   });
 });
 
+		/*Logo change*/
+		
 document
-  .getElementById("logo_div")
+  .getElementById("logo_img")
   .addEventListener("mouseover", mouseOver);
 document
-  .getElementById("logo_div")
+  .getElementById("logo_img")
   .addEventListener("mouseout", mouseOut);
 
 function mouseOver() {
@@ -53,8 +66,8 @@ $(document).ready(function(){
 });
 
 
-
-/*Up button to scroll the site page to the top*/
+		/*Up button to scroll the site page to the top*/
+		
 const btnUp = {
   el: document.querySelector('.btn-up'),
   show() {

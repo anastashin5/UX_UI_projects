@@ -2,17 +2,18 @@
 header{
 	background-color: #00849E;
 }
-.inline-block{
-	display: inline-block;
-	vertical-align: bottom;
-	color: white;
-	padding: 1%;
-}
 .inline-bl{
 	display: inline-block;
 	color: white;
-
+	padding-inline-start:1%;
+	margin-right:1%;
 }
+.inline{
+		color: white;
+		line-height:2.5;
+		list-style-type: square;
+}
+
 .phone{
 	color:white;
 	text-align:right;
@@ -24,6 +25,7 @@ header{
 }
 #logo_div{
 	text-align:center;
+	padding-top:1%;
 }
 nav{
 	width: 100%;
@@ -105,12 +107,75 @@ footer{
 	background-color: #00849E;
 	padding: 1%;
 }
-ul{
-	padding-inline-start:20px;
+
+		/* Slider Up_ Menu*/
+		
+#about_detail{
+	display: none;				
 }
-li{
-	padding-inline-start:20px;
+
+#work_detail{
+	display: none;
 }
+.slider{
+	width:20px;
+	padding-bottom:20px;
+}
+#slider2{
+	margin-left:7%;
+}
+
+#down{
+	background: #de9a44;
+	margin: 3px;
+	width: 80px;
+	height: 40px;
+	display: none;
+	float: left;
+}
+
+#mail{
+	margin-left:2%;
+}
+#mail_form_div{
+	display: none;
+	position: relative;
+	margin-left:2%;
+}
+.modal{
+	display: none; 
+	position: absolute; 
+	z-index: 1;
+	top: 23%;
+	left: 5%;
+}
+
+		/* Modal Content */
+		
+.modal-content{
+	background-color: #fefefe;
+	margin: auto;
+	padding: 20px;
+	border: 5px solid #00849E;
+	border-radius: 5px;
+	box-shadow: 5px 10px;
+	width: 100%;
+}
+
+.close{
+	color: #00849E;
+	float: right;
+	font-size: 28px;
+	font-weight: bold;
+}
+
+.close:hover, .close:focus{
+	color: #000;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+		/*Arrow*/
 
 @bg: #ffffff; 
 @primary: #00849E; 
@@ -139,59 +204,8 @@ body { background: @bg;}
   }
 }
 
-#down{
-	background: #de9a44;
-	margin: 3px;
-	width: 80px;
-	height: 40px;
-	display: none;
-	float: left;
-}
-
-#header_detail{
-	display: none;
-}
-#mail{
-	margin-left:2%;
-}
-#mail_form_div{
-	display: none;
-	position: relative;
-	margin-left:2%;
-}
-.modal{
-	display: none; 
-	position: absolute; 
-	z-index: 1;
-	top: 23%;
-	left: 5%;
-}
-
-/* Modal Content */
-.modal-content{
-	background-color: #fefefe;
-	margin: auto;
-	padding: 20px;
-	border: 5px solid #00849E;
-	border-radius: 5px;
-	box-shadow: 5px 10px;
-	width: 100%;
-}
-
-.close{
-	color: #00849E;
-	float: right;
-	font-size: 28px;
-	font-weight: bold;
-}
-
-.close:hover, .close:focus{
-	color: #000;
-	text-decoration: none;
-	cursor: pointer;
-}
-
-/*Slide down panel_ View all projects*/
+		/*Slide down panel_ View all projects*/
+		
 #panel, #flip{
   padding: 5px;
 
@@ -204,7 +218,8 @@ body { background: @bg;}
   display: none;
 }
 
-/*Up button to scroll the site page to the top*/
+		/*Up button to scroll the site page to the top*/
+		
 .btn-up{
 	position: fixed;
 	background-color: #AED8DE;

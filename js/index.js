@@ -65,6 +65,147 @@ $(document).ready(function(){
   });
 });
 
+		/*Photo "AppTravel" change*/
+		
+document
+  .getElementById("AppTravel_img")
+  .addEventListener("mouseover", mouseOver1);
+document
+  .getElementById("AppTravel_img")
+  .addEventListener("mouseout", mouseOut1);
+
+function mouseOver1() {
+  document.getElementById("AppTravel_img").src = "images/Click.png";
+  document.getElementById("AppTravel_img").style.width = "450px";
+  document.getElementById("AppTravel_img").style.height = "430px";
+}
+
+function mouseOut1() {
+  document.getElementById("AppTravel_img").src = "images/AppTravel.png";
+  document.getElementById("AppTravel_img").style.width = "450px";
+  document.getElementById("AppTravel_img").style.height = "430px";
+}
+
+$(document).ready(function(){
+  $("#flip").click(function(){
+    $("#panel").slideDown("slow");
+  });
+});
+
+
+		/*Photo "AppEz" change*/
+		
+document
+  .getElementById("AppEz_img")
+  .addEventListener("mouseover", mouseOver2);
+document
+  .getElementById("AppEz_img")
+  .addEventListener("mouseout", mouseOut2);
+
+function mouseOver2() {
+  document.getElementById("AppEz_img").src = "images/Click.png";
+  document.getElementById("AppEz_img").style.width = "450px";
+  document.getElementById("AppEz_img").style.height = "430px";
+}
+
+function mouseOut2() {
+  document.getElementById("AppEz_img").src = "images/AppEz.png";
+  document.getElementById("AppEz_img").style.width = "450px";
+  document.getElementById("AppEz_img").style.height = "430px";
+}
+
+$(document).ready(function(){
+  $("#flip").click(function(){
+    $("#panel").slideDown("slow");
+  });
+});
+
+
+
+		/*Photo "AppUSDA" change*/
+		
+document
+  .getElementById("AppUSDA_img")
+  .addEventListener("mouseover", mouseOver3);
+document
+  .getElementById("AppUSDA_img")
+  .addEventListener("mouseout", mouseOut3);
+
+function mouseOver3() {
+  document.getElementById("AppUSDA_img").src = "images/Click.png";
+  document.getElementById("AppUSDA_img").style.width = "450px";
+  document.getElementById("AppUSDA_img").style.height = "430px";
+}
+
+function mouseOut3() {
+  document.getElementById("AppUSDA_img").src = "images/AppUSDA.png";
+  document.getElementById("AppUSDA_img").style.width = "450px";
+  document.getElementById("AppUSDA_img").style.height = "430px";
+}
+
+$(document).ready(function(){
+  $("#flip").click(function(){
+    $("#panel").slideDown("slow");
+  });
+});
+
+
+/*Photo "Pets" change*/
+		
+document
+  .getElementById("Pets_img")
+  .addEventListener("mouseover", mouseOver4);
+document
+  .getElementById("Pets_img")
+  .addEventListener("mouseout", mouseOut4);
+
+function mouseOver4() {
+  document.getElementById("Pets_img").src = "images/Click.png";
+  document.getElementById("Pets_img").style.width = "450px";
+  document.getElementById("Pets_img").style.height = "430px";
+}
+
+function mouseOut4() {
+  document.getElementById("Pets_img").src = "images/Pets.png";
+  document.getElementById("Pets_img").style.width = "450px";
+  document.getElementById("Pets_img").style.height = "430px";
+}
+
+$(document).ready(function(){
+  $("#flip").click(function(){
+    $("#panel").slideDown("slow");
+  });
+});
+
+
+/*Photo "Portfolio" change*/
+		
+document
+  .getElementById("Portfolio_img")
+  .addEventListener("mouseover", mouseOver5);
+document
+  .getElementById("Portfolio_img")
+  .addEventListener("mouseout", mouseOut5);
+
+function mouseOver5() {
+  document.getElementById("Portfolio_img").src = "images/Click.png";
+  document.getElementById("Portfolio_img").style.width = "450px";
+  document.getElementById("Portfolio_img").style.height = "430px";
+}
+
+function mouseOut5() {
+  document.getElementById("Portfolio_img").src = "images/Portfolio.png";
+  document.getElementById("Portfolio_img").style.width = "450px";
+  document.getElementById("Portfolio_img").style.height = "430px";
+}
+
+$(document).ready(function(){
+  $("#flip").click(function(){
+    $("#panel").slideDown("slow");
+  });
+});
+
+
 
 		/*Up button to scroll the site page to the top*/
 		

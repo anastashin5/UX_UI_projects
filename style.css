@@ -288,10 +288,13 @@ body { background: @bg;}
 			
 .photoBW{
 	justify-content: center;
-	width: 40%;
-	padding: 3% 0;
+	width: 50%;
+	height:100%;
+
 	margin: 0 auto;
 }
-.certificates{
-	float: left;
+.draw{
+  width: 90%;
+  height: 5%;
+	padding: 3% 0;
 }

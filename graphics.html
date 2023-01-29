@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+    <title>Graphics</title>
+</head>
+ 
+<body>  
+	<header class="navigation">
+		<nav>
+			<div id="logo_div"><img id="logo_img" src="images/Logo.png" alt="logo"/>
+			</div>
+			<div>
+			<ul id="nav_menu">
+				<li class="inline-bl">About me</li>
+				<li class="inline-bl">More Work</li>
+			</ul>
+			</div>
+			<div class="phone">+1 609 210 6688
+			</div>
+
+		</nav>
+
+
+		<div id="about_detail">
+			<div class="slider">
+				<ul>
+					<li class="inline"><a href="https://anastashin5.github.io/HW_portfolio/" target="_blank">About me</a></li>
+					<li class="inline"><a href="https://docs.google.com/document/d/1IfciveNUMXet42lG57OCYi9Oi2YDTqIg/edit" target="_blank">Resume</a></li>      
+					<li class="inline"><a href="https://docs.google.com/document/d/1Cyv5vfxggUd8QOpu0NOhocqM8FegZuzL/edit" target="_blank">Certificates</a></li>
+				</ul>
+			</div>
+		</div>
+		<div id="work_detail">
+			<div class="slider">
+				<ul>
+					<li class="inline">Projects</li>
+					<li class="inline">Graphics</li>
+					<li class="inline">Coding</li>
+				</ul>
+			</div>
+		</div>		
+	</header>
+	
+	
+		<section>
+			<div  class="photoBW">
+				<h2>Logo</h2>
+				<div><img src="images/LOGO1.png" class="photo", alt="Logo_Black&Whate">
+				<h2>Certificate</h2>
+					<img src="images/certificate.png" class="photo", alt="Photo_certificate"></div>
+			</div>
+		</section>
+ 
+
+	<footer>
+			<div>
+		<div>
+			<ul>
+				<li class="inline-bl">about</li>
+				<li class="inline-bl">skills</li>
+				<li class="inline-bl">work</li>
+				<li class="inline-bl">contact</li>
+			</ul>
+		</div>
+		<div id="mail"><img src="images/mail.png" class="mail", alt="mail"></div>
+		<div id="mail_form_div">
+			<form id="mail_form" action="" method="POST"> 
+				Your Name (required)<br>
+				<input type="text" id="name" name="name" required size="10"><br>
+				Your Email (required)<br>
+				<input type="text" id="email" name="email" required size="10"><br>
+				Subject<br>
+				<input type="text" id="subject" name="subject" size="10"><br>
+				Your Message<br>
+				<textarea id="message" name="message" rows="5" cols="33"></textarea><br>
+				<input type="submit" value="Submit">
+			</form>
+			<div id="form_message" class="modal">
+			  <div class="modal-content">
+				<span id="close_button" class="close">&times;</span>
+				<p>Thank you!</p>
+			  </div>
+			</div>
+		</div>
+	</div>
+	</footer> 
+
+</body>
+<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+<script src="js/index.js"></script>
+</html>

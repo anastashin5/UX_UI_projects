@@ -290,11 +290,9 @@ body { background: @bg;}
 	justify-content: center;
 	width: 50%;
 	height:100%;
-
 	margin: 0 auto;
 }
 .draw{
-  width: 90%;
-  height: 5%;
+	width: 90%;
+	height: 5%;
 	padding: 3% 0;
-}

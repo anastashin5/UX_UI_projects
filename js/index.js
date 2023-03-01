@@ -207,6 +207,35 @@ $(document).ready(function(){
 
 
 
+/*Photo "Smart Kids" change*/
+		
+document
+  .getElementById("Kids_img")
+  .addEventListener("mouseover", mouseOver6);
+document
+  .getElementById("Kids_img")
+  .addEventListener("mouseout", mouseOut6);
+
+function mouseOver6() {
+  document.getElementById("Kids_img").src = "images/Click.png";
+  document.getElementById("Kids_img").style.width = "450px";
+  document.getElementById("Kids_img").style.height = "430px";
+}
+
+function mouseOut6() {
+  document.getElementById("Kids_img").src = "images/Kids.png";
+  document.getElementById("Kids_img").style.width = "450px";
+  document.getElementById("Kids_img").style.height = "430px";
+}
+
+$(document).ready(function(){
+  $("#flip").click(function(){
+    $("#panel").slideDown("slow");
+  });
+});
+
+
+
 		/*Up button to scroll the site page to the top*/
 		
 const btnUp = {

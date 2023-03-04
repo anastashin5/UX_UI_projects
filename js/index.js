@@ -49,14 +49,14 @@ document
 
 function mouseOver() {
   document.getElementById("logo_img").src = "images/home128.png";
-  document.getElementById("logo_img").style.width = "75px";
-  document.getElementById("logo_img").style.height = "85px";
+  document.getElementById("logo_img").style.width = "56px";
+  document.getElementById("logo_img").style.height = "56px";
 }
 
 function mouseOut() {
   document.getElementById("logo_img").src = "images/Logo.png";
-  document.getElementById("logo_img").style.width = "75px";
-  document.getElementById("logo_img").style.height = "85px";
+  document.getElementById("logo_img").style.width = "100px";
+  document.getElementById("logo_img").style.height = "56px";
 }
 
 $(document).ready(function(){

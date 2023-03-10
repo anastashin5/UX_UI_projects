@@ -1,111 +1,123 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="style.css">
-    <title>Graphics</title>
-</head>
- 
-<body>  
-	<header class="navigation">
-		<nav>
-			<div id="logo_div"><img id="logo_img" src="images/Logo.png" alt="logo"/>
-			</div>
-			<div>
-			<ul id="nav_menu">
-				<li class="inline-bl">About me</li>
-				<li class="inline-bl">More Work</li>
-			</ul>
-			</div>
-			<div class="phone">+1 609 210 6688
-			</div>
-
-		</nav>
-
-
-		<div id="about_detail">
-			<div class="slider">
-				<ul>
-					<li class="inline"><a href="https://anastashin5.github.io/HW_portfolio/" target="_blank">About me</a></li>
-					<li class="inline"><a href="images/Resume_Nastya Potapenko.pdf" target="_blank" download="">Resume</a></li>      
-					<li class="inline"><a href="https://docs.google.com/document/d/1Cyv5vfxggUd8QOpu0NOhocqM8FegZuzL/edit" target="_blank">Certificates</a></li>
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="style.css">
+		<title>Graphics</title>
+	</head>
+	<body>  
+		<header>
+			<nav>
+				<div id="logo_div"><img id="logo_img" src="images/Logo.png" alt="logo"/>
+				</div>
+				<div>
+				<ul id="nav_menu">
+					<li class="inline-bl">About me</li>
+					<li class="inline-bl">More Work</li>
+					<li id="phone">+1 609 210 6688</li>
 				</ul>
+				</div>
+
+			</nav>
+
+
+			<div id="about_detail">
+				<div class="slider">
+					<ul>
+						<li class="inline"><a href="https://anastashin5.github.io/UX_UI_about/" target="_blank">About me</a></li>
+						<li class="inline"><a href="images/Resume_Nastya Potapenko.pdf" target="_blank" download="">Resume</a></li>       
+						<li class="inline"><a href="https://docs.google.com/document/d/1Cyv5vfxggUd8QOpu0NOhocqM8FegZuzL/edit" target="_blank">Certificates</a></li>
+					</ul>
+				</div>
 			</div>
-		</div>
-		<div id="work_detail">
-			<div class="slider">
-				<ul>
-					<li class="inline">Projects</li>
-					<li class="inline">Drawing</li>
-					<li class="inline">Coding</li>
-				</ul>
+			<div id="work_detail">
+				<div class="slider">
+					<ul>
+						<li class="inline"><a href="https://anastashin5.github.io/UX_UI_projects/" target="_blank"</a> Projects</li>
+						<li class="inline"><a href="graphics.html" target="_blank">Graphics</a></li>
+						<li class="inline">Coding</li>
+					</ul>
+				</div>
+				<div class="LogoCenter"><img src="images/LogoCenter.png">
+				</div>
+			</div>		
+		</header>
+		<section class="wrap">
+			<h2>Logos</h2>
+			<div class="grid-container">
+				<div class="grid-item"><div><img src="images/LOGO1.png" class="draw", alt="Logo_Black&Whate"></div>
+				</div>
+				<div class="grid-item"><div><img src="images/logoGYM.png" class="draw", alt="Logo_Gym"></div>
+				</div>
 			</div>
-		</div>		
-	</header>
-	
-	
-		<section>
-			<div  class="photoBW">
-				<h2>Logo CAFE</h2>
-					<img src="images/LOGO1.png" class="draw", alt="Logo_Black&Whate">
-				<h2>Certificate</h2>
-					<img src="images/certificate.png" class="draw", alt="Photo_certificate">
-				<h2>Logo GYM</h2>
-				<img src="images/logoGYM.png" class="draw", alt="Logo_Gym">
-				<h2>Signboard</br>Created by Photoshop</h2>
-					<img src="images/Signboard.png" class="draw", alt="Logo_Gym">
-					<img src="images/Capture.png" class="draw", alt="Photo_Signboard">
-				<h2>Business Cards</h2>
-					<img src="images/face.jpg" class="draw", alt="Photo_MakeUp Business Card. Back side">
-					<img src="images/Card_CTO1.png" class="draw", alt="Photo_Maintenance Business Card. Front side">
-					<img src="images/Card_Gym.jpg" class="draw", alt="Photo_ Business Card.">
-					<img src="images/Card_Gym2.png" class="draw", alt="Photo_Business Card. Back side">
-					<img src="images/Vizitka.png" class="draw", alt="Photo_Business Card. Back side">
+			<div  class="photoBW">		
 				<h2>Created by CorelDraw</h2>
 					<img src="images/logoM.png" class="drawM", alt="Logo by CorelDraw">
 					<img src="images/giraffe.png" class="drawM", alt="Giraffe">
 					<img src="images/animals.png" class="draw", alt="Animals from Madagascar">
 			</div>
-		</section>
- 
-
-	<footer>
-			<div>
-		<div>
-			<ul>
-				<li class="inline-bl">about</li>
-				<li class="inline-bl">skills</li>
-				<li class="inline-bl">work</li>
-				<li class="inline-bl">contact</li>
-			</ul>
-		</div>
-		<div id="mail"><img src="images/mail.png" class="mail", alt="mail"></div>
-		<div id="mail_form_div">
-			<form id="mail_form" action="" method="POST"> 
-				Your Name (required)<br>
-				<input type="text" id="name" name="name" required size="10"><br>
-				Your Email (required)<br>
-				<input type="text" id="email" name="email" required size="10"><br>
-				Subject<br>
-				<input type="text" id="subject" name="subject" size="10"><br>
-				Your Message<br>
-				<textarea id="message" name="message" rows="5" cols="33"></textarea><br>
-				<input type="submit" value="Submit">
-			</form>
-			<div id="form_message" class="modal">
-			  <div class="modal-content">
-				<span id="close_button" class="close">&times;</span>
-				<p>Thank you!</p>
-			  </div>
+			<div class="grid-container">
+				<div class="grid-item"><div><h2>Signboard</br>Created by Photoshop</h2><img src="images/Signboard.png" class="draw", alt="Logo_Gym"></div>
+				</div>
+				<div class="grid-item"><div><h2>Signboard</br>Created by Photoshop</h2><img src="images/Capture.png" class="draw", alt="Photo_Signboard"></div>
+				</div>
+			</div>			
+			<div  class="photoBW">		
+				<h2>Certificate</h2>
+					<img src="images/certificate.png" class="draw", alt="Photo_certificate">
+			</div>		
+				<h2>Business Cards</h2>
+			<div class="grid-container">
+				<div class="grid-items"><div><img src="images/face.jpg" class="draw", alt="Photo_MakeUp Business Card. Back side"></div>
+				</div>
+				<div class="grid-items"><div><img src="images/Card_CTO1.png" class="draw", alt="Photo_Maintenance Business Card. Front side"></div>
+				</div>
+				<div class="grid-items"><div><img src="images/Card_Gym.png" class="draw", alt="Photo_Business Card. Front side"></div>
+				</div>
+				<div class="grid-items"><div><img src="images/Card_Gym2.png" class="draw", alt="Photo_Business Card. Back side"></div>
+				</div>
 			</div>
-		</div>
-	</div>
-	</footer> 
-
-</body>
-<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
-<script src="js/index.js"></script>
+		</section>
+	 
+		
+	<!-- Up button to scroll the site page to the top -->		
+			
+						<div class="btn-up btn-up_hide"></div>	
+		<footer>
+			<div>
+				<div>
+					<ul>
+						<li class="inlines">Anastashin5@gmail.com</li>
+						<li class="inlines">+1 609 210 6688</li>
+						<li class="inlines">https://github.com/anastashin5</li>
+					</ul>
+				</div>
+				<div id="mail"><img src="images/mail.png" class="mail", alt="mail"></div>
+				<div id="mail_form_div">
+					<form id="mail_form" action="" method="POST"> 
+						Your Name (required)<br>
+						<input type="text" id="name" name="name" required size="10"><br>
+						Your Email (required)<br>
+						<input type="text" id="email" name="email" required size="10"><br>
+						Subject<br>
+						<input type="text" id="subject" name="subject" size="10"><br>
+						Your Message<br>
+						<textarea id="message" name="message" rows="5" cols="33"></textarea><br>
+						<input type="submit" value="Submit">
+					</form>
+					<div id="form_message" class="modal">
+					<div class="modal-content">
+						<a href="mailto:vlad@webref.ru"><span id="close_button" class="close">&times;</span></a>
+						<p><a href="mailto:vlad@webref.ru">Thank you!</a></p>
+					</div>
+					</div>
+				</div>
+			</div>
+		</footer> 
+	</body>
+		<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+		<script src="js/index.js"></script>
 </html>
